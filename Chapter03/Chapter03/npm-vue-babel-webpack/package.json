@@ -1,0 +1,22 @@
+{
+  "name": "npm-vue-babel-webpack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "webpack": "webpack",
+    "webpack-dev": "webpack-dev-server --mode development"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "html-webpack-plugin": "^3.2.0",
+    "vue": "^2.6.10",
+    "vue-loader": "^15.7.0",
+    "vue-template-compiler": "^2.6.10",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.0",
+    "webpack-dev-server": "^3.2.1"
+  }
+}

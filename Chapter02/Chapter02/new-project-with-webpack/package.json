@@ -1,0 +1,17 @@
+{
+  "name": "new-project-with-webpack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "webpack": "webpack",
+    "dev": "webpack --mode=development"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^4.29.5",
+    "webpack-cli": "^3.2.3"
+  }
+}
