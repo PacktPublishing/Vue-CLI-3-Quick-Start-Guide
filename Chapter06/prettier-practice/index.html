@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>101 - using watchers in Vue</title>
+    <style>
+      body,
+      input {
+        font-family: Arial, sans-serif;
+        font-size: 20px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div id="example">
+      <p>
+        Enter owner name and the thing that is owned:
+        <input v-model="ownerName" placeholder="enter owner" />
+        <input v-model="thing" placeholder="enter thing" />
+      </p>
+      <span>{{ ownerName }}</span>
+      <span> has a </span>
+      <span>{{ thing }}</span>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.6.10/vue.min.js"></script>
+    <script>
+      var example = new Vue({
+        el: '#example',
+        data: {
+          ownerName: 'e.g Old McDonald',
+          thing: 'e.g cow',
+        },
+        watch: {
+          ownerName(currentValue, previousValue) {
+            console.log(
+              `The value in the first input has changed from: ${previousValue} to: ${currentValue}`
+            );
+          },
+        },
+        computed: {
+          // a computed getter
+          ownerHasThing: function() {
+            // `this` points to the Vue instance's data option
+            return this.ownerName + ' ' + this.thing;
+          },
+        },
+      });
+    </script>
+  </body>
+</html>
