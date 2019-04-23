@@ -1,0 +1,17 @@
+$secondary: tomato!important;
+$border: darken(#ff0000, 10%);
+
+@mixin alert-variant($background, $border, $color) {
+    color: $color;
+    background: $background;
+    border-color: $border;
+    border-radius: 0;
+    border-width: 5px;
+  
+    .alert-link {
+      color: darken($color, 10%);
+    }
+  }
+  .alert-info {
+    @include alert-variant(rgb(255, 192, 181), #ff0000, white);
+  }
