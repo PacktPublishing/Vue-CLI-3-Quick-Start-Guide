@@ -58,8 +58,8 @@ is a full-stack web developer who has published several courses on the subject o
 
 
 ## Other books by the authors
-* [Mastering Linux Network Administration](https://www.packtpub.com/networking-and-servers/mastering-linux-network-administration?utm_source=github&utm_medium=repository&utm_campaign=9781784399597)
-* [Linux Mint Essentials](https://www.packtpub.com/networking-and-servers/linux-mint-essentials?utm_source=github&utm_medium=repository&utm_campaign=9781782168157)
+* [Bootstrap 4 Cookbook](https://prod.packtpub.com/in//web-development/bootstrap-4-cookbook?utm_source=github&utm_medium=repository&utm_campaign=9781785889295)
+* [Vue.js Quick Start Guide](https://prod.packtpub.com/in/application-development/vuejs-quick-start-guide?utm_source=github&utm_medium=repository&utm_campaign=9781789344103)
 
 ### Suggestions and Feedback
 [Click here](https://docs.google.com/forms/d/e/1FAIpQLSdy7dATC6QmEL81FIUuymZ0Wy9vH1jHkvpY57OiMeKGqib_Ow/viewform) if you have any feedback or suggestions.
