@@ -1,8 +1,3 @@
-## $5 Tech Unlocked 2021!
-[Buy and download this Book for only $5 on PacktPub.com](https://www.packtpub.com/product/vue-cli-3-quick-start-guide/9781789950342)
------
-*If you have read this book, please leave a review on [Amazon.com](https://www.amazon.com/gp/product/1789950341).     Potential readers can then use your unbiased opinion to help them make purchase decisions. Thank you. The $5 campaign         runs from __December 15th 2020__ to __January 13th 2021.__*
-
 # Vue CLI 3 Quick Start Guide
 
 <a href="Packt UTM URL of the Book"><img src="Cover Image URL of the Book" alt="Book Name" height="256px" align="right"></a>
